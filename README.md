@@ -14,4 +14,4 @@ Run npm run dev for a dev server. Navigate to http://localhost:3000/. The applic
 ## Build
 Run npm run build to build the project. The build artifacts will be stored in the dist/ directory.
 
-If you want to see this project running you can go to this url: https://conexa.vercel.ar/
+If you want to see this project running you can go to this url: https://conexa-delta.vercel.app/
