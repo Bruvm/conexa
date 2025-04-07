@@ -1,11 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Button, Card, CardContent, Grid, Pagination, SwipeableDrawer, TextField, Typography } from '@mui/material';
+import React from 'react';
+import { Button, Card, CardContent, Grid, Pagination, Typography } from '@mui/material';
 import { useCharacterData } from '@/hooks/useCharacterData';
 import { CharacterList } from '../../../components/shared/CharacterList/CharacterList';
 import SearchComponent from '@/components/shared/SearchComponent/SearchComponent';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { SharedEpisodeList } from '@/components/shared/Episodes/SharedEpisodesList';
 import { EpisodeList } from '@/components/shared/Episodes/EpisodeList';
 import { SkeletonCard } from '@/components/shared/Skeletons/SkeletonCard';
