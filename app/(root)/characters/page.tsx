@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Button, Card, CardContent, Grid, Pagination, Typography } from '@mui/material';
+import { Card, CardContent, Grid, Pagination, Typography } from '@mui/material';
 import { useCharacterData } from '@/hooks/useCharacterData';
 import { CharacterList } from '../../../components/shared/CharacterList/CharacterList';
 import SearchComponent from '@/components/shared/SearchComponent/SearchComponent';
@@ -30,7 +30,6 @@ const Characters: React.FC = () => {
     setSearchTwo,
     setCurrentPageOne,
     setCurrentPageTwo,
-    handlePageChange,
     handleCharacterOneSelect,
     handleCharacterTwoSelect
   } = useCharacterData();

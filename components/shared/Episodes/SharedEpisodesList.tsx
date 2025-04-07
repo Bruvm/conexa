@@ -24,7 +24,8 @@ export interface Episode {
 export const SharedEpisodeList = ({ characterOne, characterTwo }: SharedEpisodeProps) => {
     const [sharedEpisodes, setSharedEpisodes] = useState([]);
     const [loading, setLoading] = useState<boolean>(true);
-
+    
+    /* eslint-disable react-hooks/exhaustive-deps */
     useEffect(() => {
         getSharedEpisodes();
     }, [characterOne, characterTwo]);
